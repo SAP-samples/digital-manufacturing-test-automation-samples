@@ -18,14 +18,14 @@ Additional Modules might be added in future.
 # Download and Import Samples
 To use the Modules in your test environment you need to download and import them in your environment.
 ## Prerequisites: Tricentis TOSCA V.2023 or higher must be installed. 
-SAP Cloud ALM  Test Automation allows to migrate the modules as well, however this was not in scope of testing at SAP. Details see you can find here. 
+SAP Cloud ALM  Test Automation allows to migrate the modules as well, however this was not in scope of testing at SAP. Details see you can find [here](https://support.sap.com/en/alm/sap-cloud-alm/implementation.html?anchorId=section_111831259). 
 
-You can refer Tricentis manuals for module import process and maintenance
+You can refer Tricentis [manuals](https://documentation.tricentis.com/tosca/2320/en/content/resources/webhelp/cover_web.htm) for module import process and maintenance
 
 # How to share feedback
-You can submit feedback by creating an issue in this repository.
+You can submit feedback by [creating an issue](https://github.com/SAP-samples/digital-manufacturing-test-automation-samples/issues) in this repository.
 For issues or question on general Tricentis Test automation please check out the information available on the internet for Tricentis Test Automation
-Additional support, ask a question in SAP Community.
+Additional support, [ask a question](https://answers.sap.com/questions/ask.html) in SAP Community.
 
 # Terms and Conditions
 The content samples offered on this GitHub may be downloaded and imported without additional license fees. Content samples are provided to support test automation enablement, to share best practices and to inspire your own test automation script development. It is forbidden to sell these content samples or use them commercially in any way.
@@ -33,4 +33,4 @@ Content samples have been tested and reviewed by SAP on Tricentis Tosca . Howeve
 Content samples are based on specific SAP Digital Manufacturing and data sources. Content or sample data may become outdated, and SAP has no obligations to keep the content up to date. SAP may at any time without offering alternative packages deprecate content.
 
 # License
-Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the LICENSE file.
+Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](https://github.com/SAP-samples/analytics-cloud-datasphere-community-content/blob/main/LICENSE) file.
