@@ -1,41 +1,36 @@
-# SAP-samples/repository-template
-This default template for SAP Samples repositories includes files for README, LICENSE, and .reuse/dep5. All repositories on github.com/SAP-samples will be created based on this template.
+# SAP Digital Manufacturing Test Automation Samples
+Testing your critical manufacturing processes is a recurring task and we strongly recommend our customer to invest in test automation.
+Digital Manufacturing Development @SAP is using Tricentis TOSCA for automation testing.
+All SAP customers with an SAP Enterprise Support agreement are entitled to use Tricentis Test Automation for SAP as a term license (link). However, this tool must be considered as a mere recommendation and customers are not obliged to adopt the same tool or process.
+Details on SAP SE and Tricentis  existing partnership. You find here https://support.sap.com/en/alm/partners/test-automation.html
 
-# Containing Files
+Using the sample artifacts provided will allow you to learn and understand how to build your own automated testcases for SAP Digital Manufacturing and is not covered by SAP Support.
 
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
+# Description
+SAP will share TOSCA test automation modules for the Standard applications of Digital Manufacturing. These modules can be downloaded and imported to any Tricentis TOSCA (V. 2023.2.x or above) environment for building your own test automation suites.
+Current available Modules you can find in the Folder Module.
+Modules will be named as the respective Digital Manufacturing Application Name with the extension .TSU e.g. Manage Orders.tsu
+Each TSU File contains relevant modules for this app.
+The modules support the SAP standard UI. 
+Published samples might not cover all variants needed for your test case. Additional functions you should enhance in your learning/ project activities.
+Additional Modules might be added in future.
 
-2. The .reuse/dep5 file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the .reuse/dep5 in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
+# Download and Import Samples
+To use the Modules in your test environment you need to download and import them in your environment.
+## Prerequisites: Tricentis TOSCA V.2023 or higher must be installed. 
+SAP Cloud ALM  Test Automation allows to migrate the modules as well, however this was not in scope of testing at SAP. Details see you can find here. 
 
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
+You can refer Tricentis manuals for module import process and maintenance
 
-# [Title]
-<!-- Please include descriptive title -->
+# How to share feedback
+You can submit feedback by creating an issue in this repository.
+For issues or question on general Tricentis Test automation please check out the information available on the internet for Tricentis Test Automation
+Additional support, ask a question in SAP Community.
 
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
+# Terms and Conditions
+The content samples offered on this GitHub may be downloaded and imported without additional license fees. Content samples are provided to support test automation enablement, to share best practices and to inspire your own test automation script development. It is forbidden to sell these content samples or use them commercially in any way.
+Content samples have been tested and reviewed by SAP on Tricentis Tosca . However, they come as they are: In case of errors or other problems, SAP is not liable to offer fixes nor any kind of support and maintenance. It is recommended that you test the content first, ideally in a test environment. You can also edit, enhance, copy or otherwise use the content in your own projects. If you do this, potential later updates of the sample content may not be reusable without additional effort or not at all.
+Content samples are based on specific SAP Digital Manufacturing and data sources. Content or sample data may become outdated, and SAP has no obligations to keep the content up to date. SAP may at any time without offering alternative packages deprecate content.
 
-## Description
-<!-- Please include SEO-friendly description -->
-
-## Requirements
-
-## Download and Installation
-
-## Known Issues
-<!-- You may simply state "No known issues. -->
-
-## How to obtain support
-[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
- 
-For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
-
-## Contributing
-If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
-
-## License
-Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
+# License
+Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the LICENSE file.
