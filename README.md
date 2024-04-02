@@ -1,3 +1,6 @@
+
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/digital-manufacturing-test-automation-samples)](https://api.reuse.software/info/github.com/SAP-samples/digital-manufacturing-test-automation-samples)
+
 # SAP Digital Manufacturing Test Automation Samples
 Testing your critical manufacturing processes is a recurring task, and we strongly recommend that you invest in test automation. Digital Manufacturing Development @SAP uses Tricentis TOSCA for testing automation.
 
