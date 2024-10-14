@@ -2,17 +2,17 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/digital-manufacturing-test-automation-samples)](https://api.reuse.software/info/github.com/SAP-samples/digital-manufacturing-test-automation-samples)
 
 # SAP Digital Manufacturing Test Automation Samples
-Testing your critical manufacturing processes is a recurring task, and we strongly recommend that you invest in test automation. Digital Manufacturing Development @SAP uses Tricentis TOSCA for testing automation.
+Testing your critical manufacturing processes is a recurring task, and we strongly recommend that you invest in test automation. Digital Manufacturing Development @SAP uses automation tool from Tricentis for automatiing case cases.
 
-All SAP customers with an SAP Enterprise Support agreement are entitled to use Tricentis Test Automation for SAP. You can find more details about SAP SE and Tricentis' existing partnership by following this link: https://support.sap.com/en/alm/partners/test-automation.html.
+All SAP customers with an SAP Enterprise Support agreement are entitled to use SAP Test Automation by Tricentis. You can find more details about SAP SE and Tricentis' existing partnership by following this link: https://support.sap.com/en/alm/partners/test-automation.html.
 
 However, note that this tool is only a recommendation, and you are not obliged to adopt the same tool or process. 
 
 By using the sample modules provided, you will be able to learn and understand how to build your own automated test cases for SAP Digital Manufacturing. Please note that test automation is not covered by SAP Digital Manufacturing Support.
 
 # Description
-SAP shares TOSCA test automation modules for the standard applications of SAP Digital Manufacturing. 
-You can download these modules and import them into any Tricentis TOSCA environment (V. 2023.2.x or above) to build your own test automation suites. 
+SAP shares Test Automation modules for the standard applications of SAP Digital Manufacturing. 
+You can download these modules and import them into SAP Test Automation environment (V. 2023.2.x or above) to build your own test automation suites. 
 
 You can find the currently available modules in the folder [Module](Module). 
 
@@ -26,7 +26,7 @@ The modules support the SAP standard user interface. Published samples might not
 # Download and Import Samples
 To use the modules in your test environment you need to download and import them to your environment.
 ## Prerequisites 
-Tricentis TOSCA V.2023 or higher must be installed. SAP Cloud ALM (Application Lifecycle Management) Test Automation allows migration of the modules, but this was not in scope of testing at SAP. For more details, follow this [link](https://support.sap.com/en/alm/sap-cloud-alm/implementation.html?anchorId=section_111831259). 
+SAP Test Automation by Tricentis must be setup as test automation environment. SAP Cloud ALM (Application Lifecycle Management) Test Automation allows migration of the modules, but this was not in scope of testing at SAP. For more details, follow this [link](https://support.sap.com/en/alm/sap-cloud-alm/implementation.html?anchorId=section_111831259). 
 
 You can refer to the Tricentis [manuals](https://documentation.tricentis.com/tosca/2320/en/content/resources/webhelp/cover_web.htm) for information on the module import process and maintenance.
 
